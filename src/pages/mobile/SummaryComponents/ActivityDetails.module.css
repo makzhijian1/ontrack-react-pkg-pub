@@ -1,0 +1,10 @@
+.activity_toggle_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.activity_details_container {
+    margin: 4% 8% 4% 8%;
+}

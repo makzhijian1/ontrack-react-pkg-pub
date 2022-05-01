@@ -1,0 +1,29 @@
+/* 
+    Header: 20% Height,
+    Body: 80% Height
+*/
+
+.header{
+    height: 20%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #FF5460;
+
+    text-align: center;
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+.body{
+    height: 80%;
+    padding-top: 12%;
+    max-width: 100%;
+    text-align: center;
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 2em; /*If more than $99,999, need to reduce font-size*/
+    text-align: center;
+}

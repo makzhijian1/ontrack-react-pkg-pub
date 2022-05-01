@@ -1,0 +1,61 @@
+.title {
+    padding-top: 4%;
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+}
+
+.budget_bar_header {
+    color: #3B3B3B;
+    font-size: 0.75em;
+    font-weight: 400;
+    padding: 4% 8% 4% 10%
+}
+
+.budget_bar {
+    height: 3vh; 
+    padding-top: 1%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.budget_rating_container {
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both;
+    height: 2vh;
+    padding: 4% 8% 8% 10%
+}
+
+.budget_rating_col_a{
+    width: max-content;
+    float: left;
+    color: #3B3B3B;
+    font-size: 0.75em;
+    font-weight: 400;
+} 
+
+.budget_rating_col_b{
+    width: max-content;
+    float: left;
+    color: #3B3B3B;
+    font-size: 0.75em;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 1%;
+}
+.budget_rating_col_c{
+    width: 10%;
+    height: 100%;
+    float: left;
+    color: #3B3B3B;
+    font-size: 0.75em;
+    padding-left: 1%;
+    padding-top: 1%;
+} 
+
+.icon_color {
+    color: #F6E42B;
+}

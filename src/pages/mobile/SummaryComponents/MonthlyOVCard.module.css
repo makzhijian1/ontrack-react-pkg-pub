@@ -1,0 +1,26 @@
+
+.column_1 {
+    padding-top: 16%;
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    font-size: 100%;
+}
+
+.outer_row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column_2_left {
+    padding-top: 4%;
+    float: left;
+    text-align: center;
+    width: 32%;
+    font-size: 125%;
+    padding-bottom: 8%;
+}
+
+
+

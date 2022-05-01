@@ -1,0 +1,52 @@
+ul{
+    height: 100vh;
+    list-style-type: none;
+    padding-left: 5%;
+}
+
+li{
+    margin-bottom: 0.5em;
+    width: 90%;
+    display: flex;
+    flex-flow: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 2%;
+}
+
+.date{
+    flex: 1;
+    margin-bottom: 2%;
+    font-family: 'roboto';
+}
+
+.linebreak{
+    width: 100%;
+    content:'';
+}
+
+.expense_amt{
+    text-align: end;
+    flex: 2;
+    padding-right: 8%;
+    font-family: 'roboto';
+}
+
+.category{
+    background-color: orange;
+    width: max-content;
+    border-radius: 5%;
+    font-size: 75%;
+    padding: 1% 1% 1% 1%;
+    text-align: center;
+    font-family: 'roboto';
+}
+
+.description{
+    flex: 3;
+    text-align: end;
+    overflow: auto;
+    font-size: 75%;
+    padding-right: 8%;
+    font-family: 'roboto';
+
+}
